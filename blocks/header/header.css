@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 52px;
+}
+
+@media (min-width: 1025px) {
+  .header {
+    margin: 0 -100px 0 -100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    min-height: 42px;
+  }
+}

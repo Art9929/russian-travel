@@ -1,0 +1,52 @@
+.cover__overlay {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% + 200px);
+  margin: 0 -100px 0 -100px;
+  padding: 245px 0 245px 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .cover__overlay {
+    width: calc(100% + 96px);
+    margin: 0 -48px 0 -48px;
+    padding: 195px 0 195px 0;
+  }
+}
+
+@media (max-width: 786px) {
+  .cover__overlay {
+    width: calc(100% + 48px);
+    margin: 0 -24px 0 -24px;
+    padding: 115px 0 115px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover__overlay {
+    width: calc(100% + 32px);
+    margin: 0 -16px 0 -16px;
+    padding: 33px 0 33px 0;
+  }
+}
+
+.cover__overlay::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity 0.3s ease;
+}
+
+.cover__overlay:hover::after {
+  opacity: .8;
+}

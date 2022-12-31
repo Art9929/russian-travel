@@ -1,0 +1,14 @@
+.header__logo {
+  background: url("../../../images/sprint-3-images/header-logo.svg");
+  background-size: contain;
+  Background-repeat: no-repeat;
+  width: 176px;
+  height: 52px;
+}
+
+@media (max-width: 600px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

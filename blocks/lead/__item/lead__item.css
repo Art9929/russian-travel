@@ -1,0 +1,15 @@
+.lead__item {
+  margin: 56px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .lead__item {
+    margin: 64px 0 0 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .lead__item {
+    margin: 40px 0 0 0;
+  }
+}
