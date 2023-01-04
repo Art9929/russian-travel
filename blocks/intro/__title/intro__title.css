@@ -3,14 +3,28 @@
   font-weight: 900;
   text-align: left;
   color: #fff;
-  box-sizing: border-box;
   font-size: 54px;
   line-height: 58px;
+  box-sizing: border-box;
+  padding: 0 25% 0 148px;
+}
+
+@media (max-width: 1024px) {
+  .intro__title {
+    padding: 0 20% 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__title {
+    padding: 0 24px;
+  }
 }
 
 @media (max-width: 600px) {
   .intro__title {
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px;
   }
 }

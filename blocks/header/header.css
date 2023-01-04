@@ -3,16 +3,19 @@
   align-items: center;
   justify-content: space-between;
   min-height: 52px;
+  box-sizing: border-box;
+  padding: 28px 48px 0 48px;
 }
 
-@media (min-width: 1025px) {
+@media (max-width: 768px) {
   .header {
-    margin: 0 -100px 0 -100px;
+    padding: 28px 24px 0 24px;
   }
 }
 
 @media (max-width: 600px) {
   .header {
+    padding: 16px 16px 0 16px;
     min-height: 42px;
   }
 }

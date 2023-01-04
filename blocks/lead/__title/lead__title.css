@@ -7,6 +7,14 @@
   line-height: 100px;
 }
 
+@media (min-width: 1025px) {
+  .lead__title {
+    box-sizing: border-box;
+    padding: 0 20%;
+  }
+}
+
+
 @media (max-width: 730px) {
   .lead__title {
     font-size: 50px;
