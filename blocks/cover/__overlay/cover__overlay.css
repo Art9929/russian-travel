@@ -8,6 +8,16 @@
   min-height: 740px;
 }
 
+.cover__overlay::before {
+  background: url('../../../images/sprint-3-images/cover-trains.jpg') center/cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
 .cover__overlay::after {
   content: "";
   position: absolute;
